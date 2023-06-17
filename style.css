@@ -1,0 +1,76 @@
+.conteiner {
+  font-family: "Titillium Web";
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color: #560ca4;
+}
+.subtitle {
+  text-align: center;
+  font-family: "Dancing Script";
+  padding-bottom: 30px;
+}
+
+.card-list {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 25px;
+}
+.element-health {
+  border-radius: 7px;
+  width: 500px;
+  height: 250px;
+  box-shadow: 5px 5px 7px 4px rgb(208, 208, 208);
+  background-image: url(images/health.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.element-weight {
+  border-radius: 7px;
+  width: 500px;
+  height: 250px;
+  box-shadow: 5px 5px 7px 4px rgb(208, 208, 208);
+  background-image: url(images/weight.jpg);
+  background-size:10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.element-children {
+  border-radius: 7px;
+  width: 500px;
+  height: 250px;
+  box-shadow: 5px 5px 7px 4px rgb(208, 208, 208);
+  background-image: url(images/children.jpg);
+  background-size:10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.element-eldrel {
+  border-radius: 7px;
+  width: 500px;
+  height: 250px;
+  box-shadow: 5px 5px 7px 4px rgb(208, 208, 208);
+  background-image: url(images/elderl.jpg);
+  background-size:10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item-title {
+  text-transform: uppercase;
+  padding-left: 270px;
+}
+.item-desc {
+  padding-left: 270px;
+}
+.item-tutor {
+  padding-left: 270px;
+}
